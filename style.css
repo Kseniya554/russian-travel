@@ -1,0 +1,39 @@
+.page {
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    background-color: #FFFFFF;    
+    max-width: 1280px;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    border: 1px solid red;
+}
+
+.header {
+    max-width: 1184px;
+    max-height: 52px;
+    margin: 28px 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    
+}
+
+.header__logo {
+    border: 1px solid red;
+    width: 176px;
+    height: 52px;
+    left: 0;
+}
+
+.header__link {
+    border: 1px solid red;
+    line-height: 28;
+    color: white;
+    display: flex;
+    align-self: flex-start;
+}
