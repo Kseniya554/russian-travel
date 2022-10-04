@@ -1,13 +1,13 @@
 .page {
     font-family: 'Inter', 'Arial', sans-serif;
-    background-color: #E5E5E5;    
+    background-color: #E5E5E5;
     max-width: 1280px;
     margin: 0 auto;
     padding:0 auto;
     display: flex;
     flex-wrap: wrap;
     background-size: auto;
-    position: relative;     
+    position: relative;
     box-sizing:border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

@@ -1,11 +1,11 @@
 .header {
-    width: 100%; 
+    width: 100%;
     max-height: 52px;
     margin: 0 auto;
-    background-color: #2A2C2F; 
-    box-sizing: border-box;   
-    position: relative;  
-    padding: 28px 3.75% 56px;    
+    background-color: #2A2C2F;
+    box-sizing: border-box;
+    position: relative;
+    padding: 28px 3.75% 56px;
     display: flex;
     flex-direction: row;
     align-items: baseline;
