@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    min-height: 18px;
+    margin: 0 auto;
+    padding: 0 48px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2A2C2F;    
+    position: relative;
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        flex-direction: column;        
+    }
+}
