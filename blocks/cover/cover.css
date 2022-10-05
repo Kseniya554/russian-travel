@@ -3,8 +3,8 @@
     margin: 0 auto;
     margin-bottom: 92px;
     box-sizing: border-box;
-    position: relative;    
-    min-height: 740px;    
+    position: relative;
+    min-height: 740px;
 }
 
 
@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 320px) {
     .cover {
-        max-width: 320px;        
+        max-width: 320px;
         margin-bottom: 64px;
     }
 }
