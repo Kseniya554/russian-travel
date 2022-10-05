@@ -9,7 +9,22 @@
     margin-right: 18px;
 }
 
-@media screen and (max-width: 320px) {
+.footer__link:nth-child(n+5) {
+    margin: 0;
+}
+
+.footer__link:hover {
+    opacity: 60%;
+    transition:  opacity 1s linear 0.5s;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__link {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 690px) {
     .footer__link {
         margin-bottom: 32px;
     }

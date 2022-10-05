@@ -3,24 +3,25 @@
     color: white;
     max-width: 288px;
     max-height: 90px;
-    margin-top: 33px;
-    margin-bottom: 92px;
+    margin: 0;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 18px;
 }
 
+.intro__list:last-child {
+    margin-bottom: 92px;
+}
+
 @media screen and (max-width: 768px) {
-    .intro__list {
+    .intro__list:last-child {
         margin-bottom: 88px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .intro__list {
-        margin-top: 34px;
-        margin-bottom: 64px;
-      
+    .intro__list:last-child {        
+        margin-bottom: 64px;      
     }
 }

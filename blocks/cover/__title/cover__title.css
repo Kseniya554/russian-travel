@@ -10,6 +10,13 @@
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .cover__title {
+        font-size: 9.375vw;
+        line-height: 9.896vw;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__title {
         font-size: 32px;

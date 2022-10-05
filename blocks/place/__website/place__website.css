@@ -2,8 +2,3 @@
     align-self: flex-end;
     max-height: 46px;   
 }
-
-.place__website:hover {
-    opacity: 60%;
-    transition:  opacity 1s linear 0.5s;
-}

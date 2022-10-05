@@ -11,6 +11,11 @@
     min-height: 20px;
 }
 
+.header__lang-link:hover {
+    opacity: 60%;
+    transition:  opacity 1s linear 0.5s;
+}
+
 .header__lang-link:last-child {
     text-decoration: none;
     text-align: right;

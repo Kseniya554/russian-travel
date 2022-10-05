@@ -1,9 +1,9 @@
 .page {
     font-family: 'Inter', 'Arial', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #2A2C2F;
     max-width: 1280px;
-    margin: 0 auto;
-    padding:0 auto;
+    margin: 0;    
+    padding: 0;
     display: flex;
     flex-wrap: wrap;
     background-size: auto;
@@ -14,8 +14,8 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
 }
 
 @media screen and (max-width: 1024px) {
