@@ -2,8 +2,7 @@
     font-family: 'Inter';
     color: white;
     max-width: 690px;
-    min-height: 208px;
-    margin-top: 40px;
+    margin-top: 0;
     margin-bottom: 33px;
     font-style: normal;
     font-weight: 400;
@@ -13,8 +12,6 @@
 
 @media screen and (max-width: 320px) {
     .intro__text {
-        font-size: 16px;
-        line-height: 163%;
         max-width: 288px;
     }
 }

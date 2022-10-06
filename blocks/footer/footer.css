@@ -1,6 +1,5 @@
 .footer {
     width: 100%;
-    min-height: 18px;
     margin: 0 auto;
     padding: 0 48px 24px;
     display: flex;
@@ -8,10 +7,24 @@
     background-color: #2A2C2F;
     position: relative;
     justify-content: space-between;
+    flex-direction: row; 
 }
 
 @media screen and (max-width: 690px) {
     .footer {
-        flex-direction: column;       
+        flex-direction: column;     
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-left: 24px;
+        padding-right: 24px;    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding-left: 16px;   
     }
 }
