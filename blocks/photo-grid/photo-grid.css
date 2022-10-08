@@ -8,12 +8,7 @@
     grid-template-rows: repeat(auto-fit, 213px);
     grid-template-columns: repeat(auto-fit, 284px);
     gap: 16px;
-}
-
-@media screen and (max-width: 1184px) {
-    .photo-grid {
-        justify-content: center;
-    }
+    justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -36,13 +31,7 @@
     }
 }
 
-@media screen and (max-width: 352px) {
-    .photo-grid {
-        grid-template-columns: repeat(auto-fit, 300px);
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
     .photo-grid {
         gap: 12px;
         grid-template-rows: repeat(auto-fit, 216px);

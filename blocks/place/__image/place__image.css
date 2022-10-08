@@ -28,11 +28,6 @@
     .place__image {
         margin-right: auto;
         margin-left: auto;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__image {
         max-height: 320px;
         max-width: 320px;
     }
